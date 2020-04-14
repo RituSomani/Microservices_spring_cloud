@@ -1,0 +1,17 @@
+package com.example.demo.bean;
+
+public class limitsConfiguration {
+
+	int max; 
+	int min;
+	
+	
+	public int getMax() {
+		return max;
+	}
+	public int getMin() {
+		return min;
+	}
+	
+	
+}

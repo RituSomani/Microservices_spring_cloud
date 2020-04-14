@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.bean.limitsConfiguration;
+
+@RestController	
+public class LimitsconfigurationController {
+	
+	@GetMapping("/limits")
+	public limitsConfiguration retrievelimitsFromConfiguration()
+	{
+		return new limitsConfiguration(1000, 1);
+	}
+
+}

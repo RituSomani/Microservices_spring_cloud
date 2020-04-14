@@ -1,0 +1,21 @@
+package com.example.demo.bean;
+
+public class limitsConfiguration {
+
+	int maximum; 
+	int minimum;
+	
+	
+	public int getMax() {
+		return max;
+	}
+	public int getMin() {
+		return min;
+	}
+	public limitsConfiguration() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
